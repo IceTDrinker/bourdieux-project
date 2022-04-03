@@ -5,11 +5,21 @@
 
 ## Requirements
 
-Coming Soon...
+- **lld** (see https://bevyengine.org/learn/book/getting-started/setup/#enable-fast-compiles-optional)
 
 ## Building
 
-Coming Soon...
+### For development
+
+```shell
+cargo build
+```
+
+### For release
+
+```shell
+cargo build --release --no-default-features
+```
 
 ## Gameplay
 
