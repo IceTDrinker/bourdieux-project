@@ -1,3 +1,9 @@
+use bevy::prelude::*;
+
+fn greet() {
+    println!("Hello Bourdieux!");
+}
+
 fn main() {
-    println!("Hello, Bourdieux!");
+    App::new().add_system(greet).run();
 }
